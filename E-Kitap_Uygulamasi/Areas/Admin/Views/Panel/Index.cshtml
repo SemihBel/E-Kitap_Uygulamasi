@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Admin Paneli</h1>
+
+<br /><br />
+
+      <table style="table">
+          <tr>
+              <td>
+                  <ul style="list-style-type:none">
+                      <li>
+                          <a asp-controller="Yazar" asp-action="Index" class="font-weight-bold" asp-area="Admin">
+                              Yazar Bilgisi
+                          </a>
+                      </li>
+                      <li>
+                          <a asp-controller="YayinEvi" asp-action="Index" class="font-weight-bold" asp-area="Admin">
+                              YayinEvi Bilgisi
+                          </a>
+                      </li>
+                      <li>
+                          <a asp-controller="Kategori" asp-action="Index" class="font-weight-bold" asp-area="Admin">
+                              Kategori Bilgisi
+                          </a>
+                      </li>
+                      <li>
+                          <a asp-controller="Kitap" asp-action="Index" class="font-weight-bold" asp-area="Admin">
+                              Kitap Bilgisi
+                          </a>
+                      </li>
+                      <li>
+                          <a asp-controller="KitapKategori" asp-action="Index" asp-area="Admin" class="font-weight-bold">
+                              Kitap Kategorileri Bilgisi
+                          </a>
+                      </li>
+                  </ul>
+                 
+              </td>
+              <td>  </td>
+          </tr>
+          <tr>
+              <td>  </td>
+              <td>  </td>
+          </tr>
+      </table>
+
